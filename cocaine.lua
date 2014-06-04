@@ -15,7 +15,6 @@ function cocaine.dissector (buf, pkt, root)
 end
 
 function cocaine.init()
-  cocaine["unpacker"] = mp.unpacker
 end
 
 -- register a chained dissector for port 8888
